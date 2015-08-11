@@ -12,11 +12,27 @@ body {
 }
 #left {
   display: inline-block;
+  padding: 100px 0 0 100px;
 }
 #right {
   display: inline-block;
+  padding-top: 100px;
+  margin-left: 50px;
   vertical-align: top;
-  width: 430px;
+  width: 450px;
+}
+#right img {
+  margin: 6px;
+}
+#blurb {
+    background-image: url('../images/frame.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding: 20px;
+}
+#blurb img {
+  padding-top: 30px;
 }
 footer {
   margin: 0 auto;
