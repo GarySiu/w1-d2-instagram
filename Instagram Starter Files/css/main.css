@@ -9,15 +9,15 @@ body {
   background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
-  padding: 100px;
 }
 #left {
-  float: left;
+  display: inline-block;
 }
 #right {
-  float: left;
-  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  width: 430px;
 }
 footer {
-  clear: both;
+  margin: 0 auto;
 }
