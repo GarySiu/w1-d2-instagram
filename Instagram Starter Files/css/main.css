@@ -19,7 +19,7 @@ body {
   padding-top: 100px;
   margin-left: 50px;
   vertical-align: top;
-  width: 450px;
+  width: 490px;
 }
 #right img {
   margin: 6px;
@@ -29,11 +29,31 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 10px;
-    padding: 20px;
+    padding: 40px;
 }
 #blurb img {
   padding-top: 30px;
 }
+h1 {
+  color: #06365f;
+  font-size: 24px;
+}
 footer {
+  display: block;
+  width: 600px;
   margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+a {
+  text-decoration: inherit;
+  font-weight: bold;
+  padding: 0 5px;
+  color: #1c5380;
+}
+footer span {
+  padding-left: 30px;
+  color: grey;
+  font-weight: bold;
 }
