@@ -34,6 +34,13 @@ body {
 #blurb img {
   padding-top: 30px;
 }
+#login {
+  float: right;
+  padding: 10px;
+  background: white;
+  vertical-align: middle;
+  border-radius: 5px;
+}
 h1 {
   color: #06365f;
   font-size: 24px;
