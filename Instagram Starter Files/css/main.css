@@ -9,4 +9,15 @@ body {
   background-repeat: repeat-x;
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 100px;
+}
+#left {
+  float: left;
+}
+#right {
+  float: left;
+  width: 50%;
+}
+footer {
+  clear: both;
 }
