@@ -21,7 +21,7 @@ body {
   vertical-align: top;
   width: 490px;
 }
-#right img {
+#brand {
   margin: 6px;
 }
 #blurb {
@@ -36,10 +36,19 @@ body {
 }
 #login {
   float: right;
-  padding: 10px;
-  background: white;
+  color: white;
+  background: linear-gradient(#5D95C1,#446D8E);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 14px 4px 2px;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin: 23px 6px 0 0;
+  height: 37px;
+}
+#login img {
   vertical-align: middle;
-  border-radius: 5px;
+  padding: 7px;
 }
 h1 {
   color: #06365f;
